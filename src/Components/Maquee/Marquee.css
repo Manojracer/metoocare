@@ -1,0 +1,7 @@
+.mycolor {
+  background: linear-gradient(45deg, #6b13c2 40%, #090909 90%);
+  text-align: center;
+  font-weight: bold;
+  height: 8vh;
+  color: white;
+}

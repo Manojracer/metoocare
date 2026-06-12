@@ -1,0 +1,113 @@
+.change_bac_colo_text {
+  background-color: #281f34;
+  height: 80px;
+  position: relative;
+}
+
+.logosize {
+  margin-top: -12px;
+  margin-left: 30px;
+  width: 180px;
+  height: 70px;
+}
+
+.prof-head {
+  margin-left: -40px;
+  justify-content: space-around;
+}
+
+.prof-head1 {
+  margin-left: -25px;
+}
+
+.pro {
+  margin-left: 30px;
+}
+
+.log-head {
+  margin-left: -20px;
+}
+
+.pop-colorr Button {
+  background-color: #0d6efd;
+  border: none;
+}
+
+/* .pop-colorr:hover i {
+  background-color: rgba(245, 245, 245, 0.2);
+}
+#icon-down1:hover {
+  width: 50px;
+  background-color: rgba(245, 245, 245, 0.2);
+} */
+.pop-colorr Button:hover {
+  background-color: #0d6dfda1;
+  border: none;
+}
+
+#pop-headerr {
+  background-color: #0d6efd;
+  color: white;
+  width: 390px;
+}
+
+#pop-bodyy.popover-inner {
+  width: 400px !important;
+  min-height: 400px !important;
+}
+
+#pop-body {
+  margin-left: 20px !important;
+}
+
+.popover {
+  --bs-popover-max-width: 390px !important;
+  max-height: 500px !important;
+  margin-left: 8px !important;
+}
+
+#icon-down {
+  margin-top: 9px !important;
+}
+
+#notify-icon-down {
+  margin-top: 9px !important;
+}
+
+#icon-down1 {
+  margin-top: 17px !important;
+}
+
+#cart-icon-down {
+  margin-top: 9px !important;
+  margin-left: -20px !important;
+}
+
+.btn-style {
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  color: white;
+}
+
+.btn-style:hover {
+  background-color: #0d6dfda1;
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+
+
+ .navbar-brand2
+ {
+  margin-top: -40px;
+ }
+ .navbar-brand3
+ {
+  margin-top: -35px;
+ }
+
+}

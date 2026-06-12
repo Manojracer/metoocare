@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+.login-container-position {
+  margin-top: 100px;
+}
+.signup_whole_body {
+  height: 100vh;
+  color: #3a3e42 !important;
+}
+.AppFormRightLogin img {
+  width: 104%;
+  height: 522px;
+}
+.AppFormLeftLogin {
+  padding-top: 50px;
+  height: 522px !important;
+}
+.emai input {
+  margin-top: 10px;
+  margin-left: -15px !important;
+}
+.AppForm .AppFormLeftLogin h1 {
+  font-size: 35px;
+}
+/* .AppForm .AppFormLeft input:focus{
+    border-color: #ced4da;
+} */
+.AppForm .AppFormLeftLogin input::placeholder {
+  font-size: 15px;
+}
+.AppForm .AppFormLeftLogin i {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.custom_login_bd_color {
+  background-color: #b7ced0;
+}
+.AppForm .AppFormLeftLogin a {
+  color: #3a3e42;
+}
+.AppForm .AppFormLeftLogin button {
+  background: #07676f;
+  border-radius: 30px;
+}
+.AppForm .AppFormLeftLogin p span {
+  color: #007bff;
+}
+.AppForm .AppFormRightLogin {
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+.AppForm .AppFormRightLogin:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #8d334c, #cf6964);
+  opacity: 0.5;
+}
+.AppForm .AppFormRightLogin h2 {
+  z-index: 1;
+}
+.AppForm .AppFormRightLogin h2::after {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.AppForm .AppFormRightLogin p {
+  z-index: 1;
+}
+.font_colr {
+  color: #07676f;
+}
+.contenthellooo {
+  background-color: rgba(0, 229, 255, 0.33);
+  border-radius: 25px;
+}
+@media screen and (max-width: 768px) {
+  .AppFormRightLogin img {
+    width: 100%;
+    height: 450px;
+  }
+  .AppFormLeftLogin {
+    height: 450px !important;
+  }
+  .login-container-position {
+    margin-top: 0px;
+  }
+  .emai input {
+    margin-left: -40px !important;
+    width: 95%;
+  }
+  .AppFormRightLogin img {
+    margin-left: -12px;
+    width: 107% !important;
+    height: 320px;
+  }
+  .AppFormRightLogin {
+    max-height: 320px !important;
+  }
+  .login-wholebody {
+    padding: 10px;
+  }
+}
