@@ -1,0 +1,137 @@
+.scroll-bar::-webkit-scrollbar {
+  width: 0;
+}
+
+.home-page .display-flex {
+  display: none;
+}
+
+.nav-tab .btn1.active {
+  background-color: #fff;
+  color: black;
+  border: none;
+  border-radius: 5rem;
+}
+
+.nav-tab .btn2.active {
+  background-color: #fff;
+  color: black;
+  border: none;
+  border-radius: 5rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.sidemenu {
+  position: fixed;
+  top: 60px;
+  height: 100%;
+  width: 24.5%;
+  z-index: 1;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  overflow-y: scroll;
+}
+
+.sidemenu::-webkit-scrollbar {
+  width: 0;
+}
+
+.sendIcon {
+  position: relative;
+  right: 30px;
+  top: 5px;
+}
+
+.messageInput {
+  width: 395px !important;
+  height: 40px !important;
+  overflow: hidden;
+}
+
+.post-create {
+  top: 73px;
+  position: sticky;
+  z-index: 1;
+}
+
+@media screen and (max-width: 320px) {
+  .range .vertical {
+    height: 145px !important;
+    width: 0px;
+    border: 1.8px solid rgb(173, 165, 255);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 412px) {
+  .range .vertical {
+    height: 120px !important;
+    width: 0px;
+    border: 1.8px solid rgb(173, 165, 255);
+  }
+}
+
+.report {
+  height: 350px;
+  overflow-y: scroll;
+}
+
+.report::-webkit-scrollbar {
+  display: none;
+}
+
+.report ul {
+  padding-left: 0;
+}
+
+.report ul li {
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1px solid lightgrey;
+  padding: 7px 0px;
+}
+
+.report ul li span:hover {
+  cursor: pointer;
+  color: #0389c9;
+}
+
+.responseModal {
+  text-align: center;
+}
+
+.responseModal span i {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: green;
+}
+
+.tag-item {
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 8px;
+  margin: 2px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.tag-item.read-only {
+  cursor: not-allowed;
+}
+
+.close-icon {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.custom-quill-editor .ql-container {
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.custom-quill-editor .ql-editor {
+  padding: 0 !important;
+}

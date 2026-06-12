@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+
+.signup_whole_body {
+  font-family: "Roboto", sans-serif !important;
+  height: 100vh;
+  color: #3a3e42 !important;
+}
+.AppForms .AppFormLeft h1 {
+  font-size: 35px;
+}
+.AppForms {
+  width: 80%;
+}
+.AppFormLeft {
+  padding: 60px;
+  width: 500px;
+}
+.AppForms .AppFormLeft input:focus {
+  border-color: #ced4da;
+}
+.AppForms .AppFormLeft input::placeholder {
+  font-size: 15px;
+}
+.AppForms .AppFormLeft i {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.AppForms .AppFormLeft a {
+  color: #3a3e42;
+}
+.AppForms button {
+  background-color: #07676f;
+  border-radius: 30px;
+}
+.AppForms .AppFormLeft p span {
+  color: #007bff;
+}
+.AppForms .AppFormRight1 {
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+.custom_login_bd_colorr {
+  background-color: #6ea3a86d;
+  width: fit-content;
+}
+.AppForms .AppFormRight:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #8d334c, #cf6964);
+  opacity: 0.5;
+}
+.AppForms .AppFormRight h2 {
+  z-index: 1;
+}
+.AppForms .AppFormRight h2::after {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.AppForms .AppFormRight p {
+  z-index: 1;
+}
+
+.contenthellooo {
+  background-color: rgba(0, 229, 255, 0.33);
+  border-radius: 25px;
+}
+
+.signup-container-position {
+  margin-top: 100px;
+}
+
+.signup_otp {
+  margin-top: -155px !important;
+  margin-left: 15px;
+}
+.signup_otp input {
+  width: 80%;
+}
+.btn {
+  margin-left: 20px;
+}
+/* .AppFormRight1 img {
+  display: flex;
+  width: 390px;
+  margin-left: 510px;
+  margin-top: -528px;
+  height: 528px;
+} */
+
+.AppFormRight1 img {
+  margin-top: 78px !important;
+  margin-left: 7px;
+  width: 106% !important;
+  height: 527px;
+}
+
+.AppFormLeft {
+  height: 440px !important;
+}
+.AppFormLeft button:hover {
+  background-color: #075e6f;
+}
+.signup_otp button:hover {
+  background-color: #075e6f;
+}
+
+@media screen and (max-width: 768px) {
+  .signup_whole_body {
+    padding: 15px;
+  }
+  .AppForms {
+    width: 100%;
+  }
+  .AppFormLeft {
+    padding: 0px;
+    margin-top: 10px;
+    width: 100% !important;
+    height: 300px !important;
+  }
+  .AppFormRight1 {
+    max-height: 320px !important;
+  }
+  .custom_login_bd_colorr {
+    width: 100%;
+  }
+  .AppFormRight1 img {
+    margin-top: -30px !important;
+    margin-left: 0px;
+    width: 107% !important;
+    height: 320px;
+  }
+  .btn {
+    margin-left: 20px;
+  }
+  .signup-container-position {
+    margin-top: 0px;
+  }
+  .signup_otp {
+    margin-top: -65px !important;
+    margin-left: 5px;
+  }
+}

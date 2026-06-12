@@ -1,0 +1,129 @@
+.services-text {
+  font-size: 13px;
+}
+.services-text1 {
+  font-size: 13px;
+  text-align: justify;
+}
+.doc-appointment {
+  margin-top: 4%;
+  margin-left: 2%;
+}
+.doc-appointment-title {
+  margin-top: 6%;
+  width: fit-content;
+  font-size: larger;
+  color: black;
+  font-weight: 600;
+}
+.doc-appointment label {
+  color: black;
+  margin-left: 8px;
+}
+.doc-appointment input {
+  border-color: black;
+  width: 60%;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 20%;
+  display: flex;
+}
+.session label {
+  margin-left: 12px;
+  color: black;
+}
+.session button {
+  margin-top: 5px;
+  width: 50%;
+  padding: 3px;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  background-color: white;
+  color: black;
+}
+.mrng-session-btn {
+  margin-left: 170px;
+}
+.doc-appointment-time label {
+  margin-top: 10px;
+  margin-left: 12px;
+  color: black;
+}
+.doc-appointment-time select {
+  margin-top: 5px;
+  border-color: black;
+  margin-left: 52px;
+  width: 50%;
+  padding: 6px;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  gap: 100px;
+}
+.doc-appointment button {
+  margin-top: 3%;
+  margin-left: 13%;
+}
+.doctor_text {
+  font-size: 14px;
+}
+.underline {
+  border-bottom: 4px solid #fbbf24;
+  width: 9%;
+}
+.textdesign {
+  text-align: justify;
+}
+.icon-email {
+  margin-top: 5px;
+  margin-left: -5px;
+  width: 40px !important;
+  height: 40px !important;
+  color: #478adc;
+}
+.icon-mobile {
+  margin-top: 8px;
+  width: 35px !important;
+  height: 35px !important;
+  color: #4d524d;
+}
+.icon-phone {
+  margin-top: 5px;
+  margin-left: -5px;
+  width: 38px !important;
+  height: 38px !important;
+  color: rgb(16, 131, 16);
+}
+#up-arrow {
+  margin-left: 300px;
+  margin-top: 150px;
+}
+.suggested-img img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.suggested-view {
+  height: 35px;
+}
+.docz_image {
+  height: 250px;
+}
+@media screen and (max-width: 768px) {
+  .doc_reviews {
+    margin-left: -18px !important;
+  }
+  .doc_reviewss {
+    margin-left: -23px !important;
+  }
+  .doc_reviews-font {
+    margin-left: -22px !important;
+    margin-top: 3px;
+    font-size: 14px !important;
+  }
+}

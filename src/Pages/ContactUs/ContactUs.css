@@ -1,0 +1,65 @@
+.card_collors {
+  color: #f5f227;
+}
+.gradient-custom1 {
+  background: #fccb90;
+  background: -webkit-linear-gradient(
+    to bottom right,
+    rgb(234, 7, 255),
+    #1414e393
+  );
+  background: linear-gradient(to bottom right, rgb(234, 7, 255), #1414e393);
+}
+.card_collor {
+  background: -webkit-linear-gradient(
+    to bottom right,
+    rgb(234, 7, 255),
+    #1414e393
+  );
+
+  background: linear-gradient(to bottom right, rgb(234, 7, 255), #1414e393);
+  width: 500px;
+  height: 570px;
+  color: white;
+  border-radius: 50px 50px 0px 50px;
+}
+.card_collor button {
+  background-color: white;
+  color: #eb2562;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+.card_collor button:hover {
+  color: white;
+  background-color: #eb2562;
+}
+.contact_color h1 {
+  color: #1c2e46;
+}
+
+@media (max-width: 767px) {
+  .card_collor {
+    max-width: 100%;
+    width: 20rem;
+  }
+
+  .card-body {
+    padding: 1.5rem;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  .btn-save {
+    width: 100%;
+  }
+}
+* {
+  font-family: "poppins";
+}
+.text_color {
+  color: whitesmoke !important;
+}
