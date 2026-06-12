@@ -1,0 +1,259 @@
+.img_pro_ic_tep {
+  width: 45px;
+  height: 45px;
+  border-radius: 30px;
+}
+
+#products-bg {
+  background-color: #f6f5f8;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.custom-check-circle {
+  color: rgb(9, 161, 9);
+}
+
+.inline-list {
+  list-style: none;
+  padding: 0;
+}
+
+.inline-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.container-with-bg {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220522/pngtree-ecommerce-banner-planning-segmentation-selection-image_1375247.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.container-with-bg .content {
+  padding: 20px;
+}
+
+#carousel {
+  width: 100%;
+}
+
+.home_carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.marquee_img_size img {
+  object-fit: cover;
+  height: 10vh;
+  width: auto;
+  margin-left: 10vh;
+}
+
+#caro_img img {
+  height: 550px !important;
+}
+
+.home_carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  overflow: hidden;
+}
+
+.brand_list {
+  width: 200px;
+}
+
+.custom-bg-color {
+  background-color: #dee1e1;
+}
+
+.newarrivals {
+  background-image: linear-gradient(rgb(217, 208, 208), #c7abce);
+}
+
+.img_size_air img {
+  height: 15vh;
+  width: 15vh;
+  display: flex;
+  justify-content: center;
+}
+
+.flag_img img {
+  height: 2vh;
+  width: 2vh;
+  margin-top: 8px;
+}
+
+.font_size_rev {
+  font-size: 15px;
+  color: black;
+  text-align: justify;
+}
+
+.testimonial_color {
+  background: linear-gradient(to bottom right, rgb(234, 7, 255), #1414e393);
+  color: white;
+  height: 250px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#star_col {
+  color: yellow;
+}
+
+.sexify_color {
+  color: #b965cc;
+}
+
+#Testimonial_Rating {
+  margin-top: -200px !important;
+}
+
+.img_size_fix img {
+  object-fit: cover;
+  justify-content: center;
+  display: flex;
+}
+
+.img_size_air img {
+  height: 15vh;
+  width: 15vh;
+  display: flex;
+  justify-content: center;
+}
+
+.flag_img img {
+  height: 2vh;
+  width: 2vh;
+  margin-top: 8px;
+}
+
+.font_size_rev {
+  font-size: 12px;
+}
+
+.back_rev_color {
+  background-color: #b965cc;
+  color: white;
+}
+
+.featured-image {
+  width: 40vh;
+  height: 40vh;
+}
+
+.featured-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.custom-card {
+  border-radius: 30px;
+}
+
+.category-img-head-home {
+  gap: 3rem;
+}
+
+.carsousel {
+  width: 100%;
+  height: 40% !important;
+}
+.home-bio {
+  text-align: justify !important;
+}
+
+@media screen and (max-width: 768px) {
+  .small_img_screen img {
+    width: 140px;
+    height: 110px;
+  }
+
+  .small_img_screen p {
+    font-size: 10px;
+  }
+
+  .name_img {
+    font-size: 5px;
+  }
+
+  .small_name {
+    margin-top: -200px;
+  }
+
+  .featured-image img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .supplier-card h1 {
+    margin-top: -30px;
+    margin-left: -35px;
+    font-size: 10px;
+  }
+
+  .supplier-card h6 {
+    font-size: 6px;
+    margin-top: -2px !important;
+    margin-left: -30px !important;
+    margin-bottom: -18px;
+  }
+
+  .supplier-card ul li {
+    font-size: 6px;
+    display: flex;
+    margin-left: -30px;
+    margin-top: 2px;
+    gap: 5px;
+  }
+
+  .supplier-btn {
+    margin-top: -27px;
+    margin-left: -50px;
+  }
+
+  .supplier-btn button {
+    width: 70px !important;
+    height: 20px !important;
+  }
+
+  .small-text {
+    font-size: 6px !important;
+  }
+
+  .category-img-head-home {
+    margin-top: -20px;
+    gap: 12px;
+  }
+
+  #caro_img img {
+    height: 150px !important;
+  }
+
+  #newarrivals {
+    margin-top: 250px;
+  }
+  .testimonial_color {
+    background-color: #e4b3e9;
+    color: white;
+    height: 250px;
+  }
+}
+
+.custom-slide {
+  width: 50%;
+}
